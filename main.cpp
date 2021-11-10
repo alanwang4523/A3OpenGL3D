@@ -1,9 +1,12 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+
+    glm::vec3 testVec3(1.0f, 2.0f, 3.0f);
 
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
